@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "extract-css": "linaria --out-dir .linaria/css --source-root components/**/*.{ts,tsx}"
   },
   "dependencies": {
     "next": "12.2.3",
@@ -19,6 +20,7 @@
     "@types/react-dom": "18.0.6",
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.3",
+    "next-linaria": "^0.11.0",
     "typescript": "4.7.4"
   }
 }
